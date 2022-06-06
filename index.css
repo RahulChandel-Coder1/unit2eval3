@@ -1,0 +1,33 @@
+/* Fill CSS here */
+h1{
+    color: blue;
+    text-align: center;
+    margin: auto;
+    text-decoration: underline;
+}
+
+div{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 400px;
+    width: 1200px;
+    margin: auto;
+    margin-top: 30px;
+}
+div>form{
+    /* border: 1px solid red; */
+    height: 320px;
+    width: 250px;
+   margin-left: 10px;
+   padding-left: 10px ;
+   margin-top: 20px;
+    padding-top: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+div>table>thead>tr{
+    background-color: rgb(37, 37, 172);
+    /* border: 1px solid red; */
+    color: white;
+}
